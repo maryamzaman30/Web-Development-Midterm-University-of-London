@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!-- the tickets page with the ticketsStyle.css file was all coded by me -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tickets</title>
+    <link rel="stylesheet" href="css/ticketsStyle.css">
+</head>
+<body>
+        <!-- this holds the code for the navigation bar -->
+            <header>
+            </div>
+                <nav class="navbar">
+                    <img src="images/logopicture.png" alt="logo of the website">
+                    
+                    <ul>                                          <!-- navbar menu -->
+                        <li> <a href="index.html">HOME</a></li>
+                        <li><a href="tickets.html">BOOK NOW</a></li>
+                        <li><a href="food.html">DINING AND RESTAURANTS</a></li>
+                        <input type="text" name="search" id="search" placeholder="Search this website">
+                        <ul class="navbar">
+                      
+                      </ul>
+                      </ul>
+                
+            </nav>
+        <hr>
+    </header>
+    <main>
+        <!-- this holds the code for the table structure that holds the title of this page with picture -->
+        <section>
+            <div class="container">                
+                <table>
+                    <tr>
+                        <td>
+                            <img src="images/despicable me.png" alt="despicable me characters" width="250">
+                            <h1 id="heading">Tickets and Bookings</h1>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </section>
+        <!-- this section and onwards holds all the code related to customer information that is gathered by the webpage -->
+        <section>
+            <div class="div1">
+                <h2 class="h2">Customer Information</h2>
+                <p class="p1"><big>Please fill in the required information for booking tickets</big></p>
+                <p id="disc" class="RD"><b>*Disclaimer</b></p>
+                <p class="p1">The special discount only applies when there is a special events</p>
+                <p class="p1">The WhiteBand allows no discounts on individual tickets</p>
+                <p class="p1">The GoldBand allows 25% discount on individual tickets</p>
+                <p class="p1">The PlatinumBand allows 50% discount on individual tickets</p>
+                <p class="p1"><big>Tickets bought will <p class="RD">not be refunded!</p></big></p>
+                <hr>
+            </div>
+        </section>
+        <section>    
+            <div class="div2">
+                <form action="form.php">
+                    <h4 class="h4">Name</h4>
+                    <input type="text" placeholder="Please enter your name"><br>
+                </form>
+            </div>            
+            <div class="div2">
+                <form action="form.php">    
+                    <h4 class="h4">Select your Gender</h4>
+                    <label for="genderIDa">
+                        <input type="radio" value="gender a" name="gender" id="genderIDa">Male
+                    </label>  
+                    <label for="genderIDb">
+                        <input type="radio" value="gender b" name="gender" id="genderIDb">Female
+                    </label><br>          
+                </form>
+            </div>
+            <div class="div2">
+                <form action="form.php">
+                    <h4 class="h4">Age</h4>
+                    <input type="number" placeholder="Please select your age">*age should be between 2 and 50
+                </form>
+            </div>
+            <div class="div2">
+                <form action="form.php">
+                    <h4 class="h4">Contact Information</h4>
+                    <input type="tel" name="telephone number" placeholder="enter your contact info" id="telephone">
+                </form>
+            </div>
+            <div class="div2">
+                <form action="form.php">
+                    <h4 class="h4">Select your Band</h4>
+                    <select name="Bands" id="Band">
+                        <option value="no-Band">Select a band type</option>
+                        <option value="WhiteBand">WhiteBand</option>
+                        <option value="GoldBand">GoldBand</option>
+                        <option value="Platinumband">PlatinumBand</option>
+                    </select
+                </form>
+            </div>
+            <div class="div2">
+                <label for="specialinstID">
+                    <input type="checkbox" name="special" id="specialinstID">Apply for special discount
+                </label>
+                <p id="p2">*special discount only works on special events</p>
+            </div>
+            <hr>
+        </section>
+    </main>
+    <!-- this is the footer. All the information about park timings, social media handles and other information's code is held here -->
+
+        <div class = "footer">
+            <div class = "column1">
+              <h3><u>USEFUL LINKS</u></h3>
+              <a href = "#">Contact Us</a>
+              <a href = "#">FAQs</a>
+              <a href = "#">Jobs</a>
+              <a href = "#">Sign up for alerts</a>
+              <a href = "#">Terms and Conditions</a>
+              <a href = "#">Privacy</a>
+    
+    
+    
+              <div class = "social-mediaicons">
+                <ul>
+                  <li><a href = "#"><img src="images/facebook.png" alt ="Facebook"></a></li>
+                  <li><a href = "#"><img src="images/instagram.png" alt ="Instagram"></a></li>
+                  <li><a href = "#"><img src="images/youtube.png" alt ="Youtube"></a></li>
+                  <li><a href = "#"><img src="images/twitter.png" alt ="Twitter"></a></li>
+                  <li><a href = "#"><img src="images/tiktok.png" alt ="Tiktok"></a></li>
+                </ul>
+                    </div>
+            </div>
+    
+          <div class = "column2">
+            <h3><u>RIDES AND EXPERIENCES</u></h3>
+            <a href = "#">Rides and Attractions</a>
+            <a href = "#">Hotel</a>
+            <a href = "#">Merchandise</a>
+            <a href = "#">Dining and Restaurants</a>
+            <a href = "#">Tickets and passes</a>
+          </div>
+    
+          <div class = "column3">
+            <h3><u>PARK TIMINGS</u></h3>
+            <table>
+            <tr>
+              <td>Monday</td>
+              <td>10:00am - 10:00pm</td>
+    
+            </tr>
+    
+            <tr>
+              <td>Tuesday</td>
+              <td>10:00am - 10:00pm</td>
+            </tr>
+    
+            <tr>
+              <td>Wednesday</td>
+              <td>10:00am - 10:00pm</td>
+            </tr>
+    
+            <tr>
+              <td>Thursday</td>
+              <td>10:00am - 10:00pm</td>
+            </tr>
+    
+            <tr>
+              <td>Friday</td>
+              <td>9:00am - 10:00pm</td>
+            </tr>
+    
+            <tr>
+              <td>Saturday</td>
+              <td>9:00am - 11:00pm</td>
+            </tr>
+    
+            <tr>
+              <td>Sunday</td>
+              <td>Closed</td>
+            </tr>
+          </table>    
+         
+    </div>
+       
+    </footer>
+</body>
+</html>
+<!-- end of the code that I wrote -->
