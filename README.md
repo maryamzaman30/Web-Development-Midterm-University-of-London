@@ -8,4 +8,4 @@ This project was part of our Midterm. We were tasked with a team project in web 
 
 Note: Code written between Start and End in PDF file is my own. Any other code or resources used are referenced.
 
-Website Link - 
+Website Link - https://mz30.github.io/Web-Development-Midterm-University-of-London/
